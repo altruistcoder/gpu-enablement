@@ -70,6 +70,6 @@ oc get machineconfig | grep entitlement
 <img src="./images/Image - 4.png" width="800px" alt="Screen Shot 4 here">
 <br>
 
-12. We can see now all of the appropriate Nvidia GPU Operator pods would be deployed
+12. We can see now all of the appropriate Nvidia GPU Operator pods would be deployed.
 
 <img src="./images/Image - 5.png" width="800px" alt="Screen Shot 5 here">
