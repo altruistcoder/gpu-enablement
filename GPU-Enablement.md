@@ -52,35 +52,24 @@ oc get machineconfig | grep entitlement
 
 8. Move to the Operator Hub and search for the Nvidia GPU Operator. Click on **Install**. Next, we are going to install the Operators inside a specific namespace, viz. "gpu-operator-resources".
 
-<div align="center">
-    <img src="./images/Image-1.png" width="800px" alt="Screen Shot here">
-    <br><br>
-</div>
+<img src="./images/Image - 1.png" width="800px" alt="Screen Shot 1 here">
+<br>
 
 9. Now, we can see both the Nvidia GPU Operator as well as NFD operators would be installed.
 
-<div align="center">
-    <img src="./images/Image-1.png" width="800px" alt="Screen Shot here">
-    <br><br>
-</div>
+<img src="./images/Image - 2.png" width="800px" alt="Screen Shot 2 here">
+<br>
 
 10. Now, create an instance of NFD Operator and it will automatically label all the hardware nodes present in our cluster.
 
-<div align="center">
-    <img src="./images/Image-3.png" width="800px" alt="Screen Shot here">
-    <br><br>
-</div>
+<img src="./images/Image - 3.png" width="800px" alt="Screen Shot 3 here">
+<br>
 
 11. Next, create an instance of the Nvidia GPU Operator and it would deploy all the required software components including the NVIDIA drivers (to enable CUDA), Kubernetes device plugin for GPUs, the NVIDIA Container Runtime and DCGM based monitoring.
 
-<div align="center">
-    <img src="./images/Image-4.png" width="800px" alt="Screen Shot here">
-    <br><br>
-</div>
+<img src="./images/Image - 4.png" width="800px" alt="Screen Shot 4 here">
+<br>
 
 12. We can see now all of the appropriate Nvidia GPU Operator pods would be deployed
 
-<div align="center">
-    <img src="./images/Image-5.png" width="800px" alt="Screen Shot here">
-    <br><br>
-</div>
+<img src="./images/Image - 5.png" width="800px" alt="Screen Shot 5 here">
