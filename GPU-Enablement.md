@@ -44,6 +44,8 @@ $ oc create -f 0003-cluster-wide-machineconfigs.yaml
 oc get machineconfig | grep entitlement
 ```
 
+***Note:*** Before proceeding further you need to wait for some time as once you run the above commands, it is going to create a new MachineConfig and then it will iterate through each of the nodes present in our cluster, drain those nodes, apply the new configuration and then make those nodes Ready again. The total time spent in this activity may depend on the number of nodes present in your cluster. 
+
 ## Installing Nvidia GPU Operator and Node Feature Discovery (NFD) Operator:
 
 6. The NFD Operator gets installed automatically with the Nvidia GPU Operator. So, we need not install it separately using the Operator Hub.
