@@ -60,7 +60,7 @@ $ python -m ipykernel install --user --name <kernel-name> --display-name "<Kerne
 Ex. $ python -m ipykernel install --user --name my-first-kernel --display-name "My-First-Kernel"
 ```
 
-<img src="./images/kernel-tutorial-images/Image-5.png" width="800px" alt="Screen Shot 1 here">
+<img src="./images/kernel-tutorial-images/image-5.png" width="800px" alt="Screen Shot 1 here">
 <br><br>
 
 Note: --display-name is an optional parameter which can be used to set the name of the Kernel that is going to be displayed on the Jupyter Notebook.
@@ -77,7 +77,7 @@ $ deactivate
 $ jupyter kernelspec list
 ```
 
-<img src="./images/kernel-tutorial-images/Image-6.png" width="800px" alt="Screen Shot 1 here">
+<img src="./images/kernel-tutorial-images/image-6.png" width="800px" alt="Screen Shot 1 here">
 <br><br>
 
 
@@ -85,12 +85,12 @@ $ jupyter kernelspec list
 
 8. Go to **Kernel** tab present at the top. Click on **Change Kernel**.
 
-<img src="./images/kernel-tutorial-images/Image-7.png" width="800px" alt="Screen Shot 1 here">
+<img src="./images/kernel-tutorial-images/image-7.png" width="800px" alt="Screen Shot 1 here">
 <br><br>
 
 9. Now, **Select** the appropriate kernel from the list that you want to use and now every cell that you would run is going to use the dependencies present in the corresponding virtual environment only.
 
-<img src="./images/kernel-tutorial-images/Image-8.png" width="800px" alt="Screen Shot 1 here">
+<img src="./images/kernel-tutorial-images/image-8.png" width="800px" alt="Screen Shot 1 here">
 <br><br>
 
 
@@ -102,7 +102,7 @@ $ jupyter kernelspec list
 $ rm -rf <virtual-env-name>
 ```
 
-<img src="./images/kernel-tutorial-images/Image-9.png" width="800px" alt="Screen Shot 1 here">
+<img src="./images/kernel-tutorial-images/image-9.png" width="800px" alt="Screen Shot 1 here">
 <br><br>
 
 11. After you deleted your virtual environment, you’ll want to remove its Kernel also from Jupyter Notebook, you can do that by running:
@@ -111,5 +111,5 @@ $ rm -rf <virtual-env-name>
 $ jupyter kernelspec uninstall <kernel-name>
 ```
 
-<img src="./images/kernel-tutorial-images/Image-10.png" width="800px" alt="Screen Shot 1 here">
+<img src="./images/kernel-tutorial-images/image-10.png" width="800px" alt="Screen Shot 1 here">
 <br><br>

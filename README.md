@@ -5,7 +5,7 @@ This is a repository of some tutorials which describes the steps required to per
 
 ## Programs
 
-* [GPU Enablement](https://https//github.com/altruistcoder/tutorials-generic/blob/master/GPU-Enablement.md):
+* [GPU Enablement](https://github.com/altruistcoder/tutorials-generic/blob/master/GPU-Enablement.md):
 
   A simple tutorial that provides the steps of deploying the Nvidia GPU Operator on Openshift for GPU Enblement on your cluster.
 
